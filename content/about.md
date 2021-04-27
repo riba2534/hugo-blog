@@ -1,12 +1,9 @@
 ---
 title: "关于"
-date: 2019-07-16T01:08:22+08:00
+date: 2021-04-27 14:58:16
 draft: false
-lastmod: 2017-08-28T21:41:52+08:00
 menu: "main"
-weight: 50
-
+comment: true # 控制该页面能否评论
 ---
-
 
 测试页面

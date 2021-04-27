@@ -1,9 +1,10 @@
-baseURL = "http://ali.riba2534.cn:1313/"
+baseURL = "http://localhost:1313/"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "zh-cn"
 title = "riba2534's Blog"
 copyright = "This is a customized copyright."
 theme = "diary"
+#  关于归档的实现，手动编辑 markdown 页面
 
 [markup]
   [markup.highlight]
@@ -18,27 +19,18 @@ theme = "diary"
     tabWidth = 4
 
 [params]
+disqusShortname = "riba2534"
 subtitle = "没有谁生来就是神牛，而千里之行，始于足下！"
-enableGitalk = true
+favicon = "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210427152737.jpeg"
+enableMathJax = true
 
-# Twitter Card and Open Graph settings
-enableOpenGraph = true
-enableTwitterCards = true
-title = "My Blog" # will set 'og:site_name'
-description = "My HomePage Description"  # will set 'og:description'
-
-[params.gitalk]
-  owner = "user"
-  repo = "repo name"
-  client_id = "your client id"
-  client_secret = "your client secret"
 [taxonomies]
    tag = "tags"
    category = "categories"
 
 
 [[menu.main]]
-url = "/posts"
+url = "/blog"
 name = "文章"
 weight = 1
 
@@ -46,17 +38,23 @@ weight = 1
 url = "/categories"
 name = "分类"
 weight = 2
+
 [[menu.main]]
 url = "/tags"
 name = "标签"
 weight = 3
 
 [[menu.main]]
+url = "/blog"
+name = "归档"
+weight = 4
+
+[[menu.main]]
 url = "/about"
 name = "关于"
-weight = 4
+weight = 5
 
 [[menu.main]]
 url = "/index.xml"
 name = "RSS"
-weight = 5
+weight = 6

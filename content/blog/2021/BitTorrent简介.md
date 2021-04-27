@@ -1,7 +1,7 @@
 ---
 title: "BitTorrent 简介"
 date: 2021-04-26T23:35:03+08:00
-lastmod: 2015-04-06         # 文章修改日期
+lastmod: 2021-04-27 15:05:04
 featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210411143727.png"
 description: "经常在网上飙车的老司机应该都知道 BT 下载，但是有时候拿到了种子却下载不动，会不会很抓狂，是不是还觉得是自己网不行，那作为一个合格的老司机，我们需要探究一下下载不动的原因是什么，BT的运作方式是怎样的，如果你也有这样的疑惑，那么，系好安全带，我们一起来了解一下什么是 BT。"
 tags: ["BitTorrent"]
