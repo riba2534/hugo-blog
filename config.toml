@@ -2,9 +2,14 @@ baseURL = "http://localhost:1313/"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "zh-cn"
 title = "riba2534's Blog"
-copyright = "This is a customized copyright."
+copyright = "riba2534. 本站遵循 CC-BY-NC 4.0 协议"
 theme = "diary"
+enableEmoji = true
+enableGitInfo = false
 #  关于归档的实现，手动编辑 markdown 页面
+
+description = "My HomePage Description"  # will set 'og:description'
+
 
 [markup]
   [markup.highlight]
@@ -27,6 +32,7 @@ enableMathJax = true
 [taxonomies]
    tag = "tags"
    category = "categories"
+   series = "series"
 
 
 [[menu.main]]
@@ -44,17 +50,23 @@ url = "/tags"
 name = "标签"
 weight = 3
 
+
 [[menu.main]]
-url = "/blog"
-name = "归档"
+url = "/series"
+name = "系列"
 weight = 4
+
+[[menu.main]]
+url = "/blog/archive/"
+name = "归档"
+weight = 5
 
 [[menu.main]]
 url = "/about"
 name = "关于"
-weight = 5
+weight = 6
 
 [[menu.main]]
 url = "/index.xml"
 name = "RSS"
-weight = 6
+weight = 7
