@@ -56,10 +56,10 @@ url = "/series"
 name = "系列"
 weight = 4
 
-[[menu.main]]
-url = "/blog/archive/"
-name = "归档"
-weight = 5
+# [[menu.main]]
+# url = "/blog/archive/"
+# name = "归档"
+# weight = 5
 
 [[menu.main]]
 url = "/about"
