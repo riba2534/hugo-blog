@@ -1,4 +1,4 @@
-baseURL = "http://localhost:8000/"
+# baseURL = "http://localhost:8000/"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "zh-cn"
 title = "riba2534's Blog"
@@ -6,6 +6,7 @@ copyright = "riba2534. 本站遵循 CC-BY-NC 4.0 协议"
 theme = "diary"
 enableEmoji = true
 enableGitInfo = false
+dateFormat = "2006-01-02 15:04:05"
 #  关于归档的实现，手动编辑 markdown 页面
 
 description = "My HomePage Description"  # will set 'og:description'
@@ -28,6 +29,11 @@ disqusShortname = "riba2534"
 subtitle = "没有谁生来就是神牛，而千里之行，始于足下！"
 favicon = "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210427152737.jpeg"
 enableMathJax = true
+
+enableOpenGraph = true
+enableTwitterCards = true
+title = "My Blog" # will set 'og:site_name'
+description = "My HomePage Description"  # will set 'og:description'
 
 [taxonomies]
    tag = "tags"

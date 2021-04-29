@@ -12,5 +12,7 @@ build:
 	hugo --theme=diary
 
 test:
-	hugo --theme=diary --baseUrl="http://localhost" -d docs
+	# hugo --theme=diary --baseUrl="http://127.0.0.1:8080" -d docs
+	rm -rf docs
+	hugo --theme=diary -d docs
 	python3 -m http.server --directory docs 80
