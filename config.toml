@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "http://localhost:8000/"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "zh-cn"
 title = "riba2534's Blog"
