@@ -1,65 +1,62 @@
 # baseURL = "http://localhost:8000/"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
-languageCode = "zh-cn"
-title = "riba2534's Blog"
-copyright = "riba2534. 本站遵循 CC-BY-NC 4.0 协议"
-theme = "diary"
-enableEmoji = true
-enableGitInfo = false
-dateFormat = "2006-01-02 15:04:05"
+copyright = "riba2534. 本站遵循 CC-BY-NC 4.0 协议" 
+dateFormat = "2006-01-02 15:04:05" 
+enableEmoji = true 
+enableGitInfo = false 
+languageCode = "zh-cn" 
+theme = "diary" 
+title = "riba2534's Blog" 
 #  关于归档的实现，手动编辑 markdown 页面
 
-description = "My HomePage Description"  # will set 'og:description'
-
+description = "My HomePage Description" # will set 'og:description'
 
 [markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "perldoc"
-    tabWidth = 4
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = "perldoc"
+tabWidth = 4
 
 [params]
 disqusShortname = "riba2534"
-subtitle = "没有谁生来就是神牛，而千里之行，始于足下！"
-favicon = "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210427152737.jpeg"
 enableMathJax = true
+favicon = "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210427152737.jpeg"
+subtitle = "没有谁生来就是神牛，而千里之行，始于足下！"
 
-enableOpenGraph = true
-enableTwitterCards = true
+description = "My HomePage Description" # will set 'og:description'
+enableOpenGraph = true 
+enableTwitterCards = true 
 title = "My Blog" # will set 'og:site_name'
-description = "My HomePage Description"  # will set 'og:description'
 
 [taxonomies]
-   tag = "tags"
-   category = "categories"
-   series = "series"
-
+category = "categories"
+series = "series"
+tag = "tags"
 
 [[menu.main]]
-url = "/blog"
 name = "文章"
+url = "/blog"
 weight = 1
 
 [[menu.main]]
-url = "/categories"
 name = "分类"
+url = "/categories"
 weight = 2
 
 [[menu.main]]
-url = "/tags"
 name = "标签"
+url = "/tags"
 weight = 3
 
-
 [[menu.main]]
-url = "/series"
 name = "系列"
+url = "/series"
 weight = 4
 
 # [[menu.main]]
@@ -68,11 +65,28 @@ weight = 4
 # weight = 5
 
 [[menu.main]]
-url = "/about"
 name = "关于"
+url = "/about"
 weight = 6
 
 [[menu.main]]
-url = "/index.xml"
 name = "RSS"
+url = "/index.xml"
 weight = 7
+
+[[menu.footer]]
+name = "GitHub"
+url = "https://github.com/riba2534"
+weight = 1
+[[menu.footer]]
+name = "Zhihu"
+url = "https://www.zhihu.com/people/riba2534"
+weight = 2
+[[menu.footer]]
+name = "Email"
+url = "riba2534@qq.com"
+weight = 3
+# [[menu.footer]]
+# name = "RSS"
+# url = "/index.xml"
+# weight = 4
