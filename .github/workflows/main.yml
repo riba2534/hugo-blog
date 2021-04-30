@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: checkout blog repo
         uses: actions/checkout@v2
+      - name: Checkout submodules
+        uses: textbook/git-checkout-submodule-action@2.1.1
 
       - name: setup hugo
         uses: peaceiris/actions-hugo@v2
@@ -21,12 +23,12 @@ jobs:
 
       - name: build content to public site
         working-directory: ./
-        run: hugo --minify --gc
+        run: hugo
 
       - name: install nodejs
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: "14"
 
       - name: install tencent cloud cloudbase
         shell: bash
