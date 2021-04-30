@@ -1,4 +1,4 @@
-# baseURL = "http://localhost:8000/"
+baseURL = "https://blog2.riba2534.cn/"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 copyright = "riba2534. 本站遵循 CC-BY-NC 4.0 协议" 
 dateFormat = "2006-01-02 15:04:05" 
