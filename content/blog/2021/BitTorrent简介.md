@@ -1,12 +1,18 @@
 ---
-title: "BitTorrent 简介"
-date: 2021-04-26T23:35:03+08:00
-lastmod: 2021-04-27 15:05:04
-featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210411143727.png"
-description: "经常在网上飙车的老司机应该都知道 BT 下载，但是有时候拿到了种子却下载不动，会不会很抓狂，是不是还觉得是自己网不行，那作为一个合格的老司机，我们需要探究一下下载不动的原因是什么，BT的运作方式是怎样的，如果你也有这样的疑惑，那么，系好安全带，我们一起来了解一下什么是 BT。"
-tags: ["BitTorrent"]
-categories: ["网络协议"]
+title: BitTorrent简介
+date: 2021-04-11T17:09:13+08:00
+lastmod: 2021-04-11T17:09:13+08:00
+draft: false
+featured_image: https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210411143727.png
+tags: []
+categories: 心情随想
+comment: true
+
 ---
+
+# BitTorrent 简介
+
+![1](https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210411143727.png)
 
 # 从 P2P 说起
 
@@ -619,4 +625,5 @@ BT/PT 用户应该还是持续的在小圈子里面存在下去，有很多发�
 10. https://github.com/shiyanhui/dht/wiki/%E3%80%90%E4%B8%80%E6%AD%A5%E4%B8%80%E6%AD%A5%E6%95%99%E4%BD%A0%E5%86%99BT%E7%A7%8D%E5%AD%90%E5%97%85%E6%8E%A2%E5%99%A8%E3%80%91DHT%E7%AF%87
 11. https://github.com/BrightStarry/zx-bt
 12. https://www.aneasystone.com/archives/2015/05/analyze-magnet-protocol-using-wireshark.html
+
 

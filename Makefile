@@ -3,7 +3,7 @@ init:
 	git submodule update
 
 run:
-	hugo server
+	hugo server --baseUrl="http://localhost:1313"
 
 build:
 	hugo --theme=diary
