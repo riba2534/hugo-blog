@@ -1,5 +1,5 @@
-baseURL = "https://blog2.riba2534.cn/"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
+baseURL = "https://blog2.riba2534.cn/" 
 copyright = "riba2534. 本站遵循 CC-BY-NC 4.0 协议" 
 dateFormat = "2006-01-02 15:04:05" 
 enableEmoji = true 
@@ -7,7 +7,6 @@ enableGitInfo = false
 languageCode = "zh-cn" 
 theme = "diary" 
 title = "riba2534's Blog" 
-#  关于归档的实现，手动编辑 markdown 页面
 
 description = "My HomePage Description" # will set 'og:description'
 

@@ -7,8 +7,9 @@ featured_image: ""
 tags:
 - 《TCP/IP网络编程》
 categories: 《TCP/IP网络编程》学习笔记
+series:
+- 《TCP/IP网络编程》学习笔记
 comment: true
-
 ---
 
 ## 第一章：理解网络编程和套接字
