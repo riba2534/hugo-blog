@@ -22,16 +22,13 @@ style = "perldoc"
 tabWidth = 4
 
 [params]
-description = "My HomePage Description" # will set 'og:description'
 disqusShortname = "riba2534" 
+enableMathJax = true 
 enableOpenGraph = true 
-enableTwitterCards = true 
+enableReadingTime = true 
 favicon = "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210427152737.jpeg" 
 subtitle = "没有谁生来就是神牛，而千里之行，始于足下！" 
 title = "My Blog" # will set 'og:site_name'
-
-[param]
-enableMathJax = true
 
 [taxonomies]
 category = "categories"
