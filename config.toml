@@ -2,13 +2,12 @@ DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, 
 baseURL = "https://blog2.riba2534.cn/" 
 copyright = "riba2534. 本站遵循 CC-BY-NC 4.0 协议" 
 dateFormat = "2006-01-02 15:04:05" 
+description = "My HomePage Description" # will set 'og:description'
 enableEmoji = true 
 enableGitInfo = false 
 languageCode = "zh-cn" 
 theme = "diary" 
 title = "riba2534's Blog" 
-
-description = "My HomePage Description" # will set 'og:description'
 
 [markup]
 [markup.highlight]
@@ -23,15 +22,16 @@ style = "perldoc"
 tabWidth = 4
 
 [params]
-disqusShortname = "riba2534"
-enableMathJax = true
-favicon = "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210427152737.jpeg"
-subtitle = "没有谁生来就是神牛，而千里之行，始于足下！"
-
 description = "My HomePage Description" # will set 'og:description'
+disqusShortname = "riba2534" 
 enableOpenGraph = true 
 enableTwitterCards = true 
+favicon = "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210427152737.jpeg" 
+subtitle = "没有谁生来就是神牛，而千里之行，始于足下！" 
 title = "My Blog" # will set 'og:site_name'
+
+[param]
+enableMathJax = true
 
 [taxonomies]
 category = "categories"
