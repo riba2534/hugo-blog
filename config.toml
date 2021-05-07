@@ -6,6 +6,7 @@ description = "My HomePage Description" # will set 'og:description'
 enableEmoji = true 
 enableGitInfo = false 
 languageCode = "zh-cn" 
+preserveTaxonomyNames = true 
 theme = "diary" 
 title = "riba2534's Blog" 
 
