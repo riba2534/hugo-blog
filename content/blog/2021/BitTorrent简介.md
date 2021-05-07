@@ -8,7 +8,9 @@ tags:
 - BitTorrent
 - BT下载
 - PT
-categories: 计算机网络
+categories: 
+- 计算机网络
+- 技术分享
 comment: true
 ---
 
