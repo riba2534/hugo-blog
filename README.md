@@ -12,7 +12,10 @@
 
 主题链接：https://github.com/AmazingRise/hugo-theme-diary
 
-评论系统：https://github.com/DesertsP/Valine-Admin
+评论系统：
+- https://github.com/DesertsP/Valine-Admin
+- https://valine.js.org/
+- https://www.leancloud.cn/ (ServerLess云服务)
 
 hugo模板开发教程：
 
