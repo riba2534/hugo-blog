@@ -4,10 +4,12 @@ date: 2021-04-11T17:09:13+08:00
 lastmod: 2021-04-11T17:09:13+08:00
 draft: false
 featured_image: https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210411143727.png
-tags: []
-categories: 心情随想
+tags:
+- BitTorrent
+- BT下载
+- PT
+categories: 计算机网络
 comment: true
-
 ---
 
 # BitTorrent 简介

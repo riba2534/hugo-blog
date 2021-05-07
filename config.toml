@@ -21,6 +21,9 @@ noClasses = true
 style = "perldoc"
 tabWidth = 4
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
 disqusShortname = "riba2534" 
 enableMathJax = true 
@@ -55,10 +58,10 @@ name = "系列"
 url = "/series"
 weight = 4
 
-# [[menu.main]]
-# url = "/blog/archive/"
-# name = "归档"
-# weight = 5
+[[menu.main]]
+name = "归档"
+url = "/archive"
+weight = 5
 
 [[menu.main]]
 name = "关于"
@@ -69,6 +72,11 @@ weight = 6
 name = "RSS"
 url = "/index.xml"
 weight = 7
+
+# [[menu.main]]
+# name = "友链"
+# url = "/index.xml"
+# weight = 8
 
 [[menu.footer]]
 name = "GitHub"

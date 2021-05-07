@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div ref="streamContainer" class="stream-container">
+    <div class="post-list-container post-list-container-shadow">
+        <a class="a-block">
+            <div class="post-item-wrapper post-item-wrapper-no-hover">
+                <div class="post-item post-item-no-gaps">
+                    <div class="post-item-info-wrapper">
+                        <div class="post-item-title post-item-title-small">
+                            归档
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- 内容列表页 -->
+        {{ range (.Site.RegularPages.GroupByDate "2006") }}
+            <a class="a-block">
+                <div class="post-item-wrapper post-item-wrapper-no-hover">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title post-item-title-small year">
+                                {{ .Key }}
+                            </div>
+                        </div>
+                        {{ len (where .Pages "Type" "blog") }} 篇
+                    </div>
+                </div>
+            </a>
+            <table style="display: table; margin:auto; width: calc(100% - 70px);">
+                {{ range (where .Pages "Type" "blog") }}
+                <tr>
+                  <td>
+                    {{ .PublishDate.Format "2006-01-02" }}
+                  </td>
+                  <td>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                  </td>
+                </tr>
+                {{ end }}
+            </table>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

@@ -12,7 +12,11 @@
 
 主题链接：https://github.com/AmazingRise/hugo-theme-diary
 
-hugo模板开发教程：https://hugo.aiaide.com/post/
+hugo模板开发教程：
+
+- https://hugo.aiaide.com/post/
+- https://www.jianshu.com/p/0b9aecff290c
+- http://blog.wikty.com/post/hugo-tutorial/
 
 
 # 构建方法

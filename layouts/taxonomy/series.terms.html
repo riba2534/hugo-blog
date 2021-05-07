@@ -13,13 +13,13 @@
             </div>
         </a>
         
-        {{ range .Paginator.Pages }}
+        {{ range .Pages }}
                 <a href="{{.Permalink}}" class="a-block">
                     <div class="post-item-wrapper">
                         <div class="post-item post-item-no-gaps">
                             <div class="post-item-info-wrapper"> 
                                 <div class="post-item-title">
-                                    {{.Title}}
+                                    {{.Title}}<sup>{{ len .Pages }}</sup>
                                 </div>
                             </div>
                         </div>

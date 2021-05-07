@@ -12,20 +12,15 @@
                 </div>
             </div>
         </a>
-        
-        {{ range .Paginator.Pages }}
-                <a href="{{.Permalink}}" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    {{.Title}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-        {{ end }}
+        <div style="margin:35px">
+            {{ range .Pages }}
+                <span class="post-item-wrapper">
+                    <a href="{{.Permalink}}">
+                        {{.Title}}<sup>{{ len .Pages }}</sup>
+                    </a>
+                </span>
+            {{ end }}
+        </div>
     </div>
 </div>
 

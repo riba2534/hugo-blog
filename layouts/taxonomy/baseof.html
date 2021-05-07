@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+    	<div id="app">
+            {{- partial "sidebar.html" . -}}
+            {{- partial "extrabar2.html" . -}}
+            <!-- PC view -->
+
+            {{- partial "mobile-header.html" . -}}
+            <!-- mobile header -->
+            <div id="content">
+                    {{- block "main" . }}{{- end }}
+            </div>
+        
+            {{- partial "mobile-footer.html" . -}}
+            <!-- mobile footer -->
+            </div>
+    {{ partial "journal.html" .}}
+    </body>
+</html>
