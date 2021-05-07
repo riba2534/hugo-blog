@@ -78,23 +78,24 @@ name = "RSS"
 url = "/index.xml"
 weight = 7
 
-# [[menu.main]]
-# name = "友链"
-# url = "/index.xml"
-# weight = 8
+
+[[menu.footer]]
+name = "CSDN"
+url = "https://blog.csdn.net/riba2534"
+weight = 1
 
 [[menu.footer]]
 name = "GitHub"
 url = "https://github.com/riba2534"
-weight = 1
+weight = 2
 [[menu.footer]]
 name = "Zhihu"
 url = "https://www.zhihu.com/people/riba2534"
-weight = 2
+weight = 3
 [[menu.footer]]
 name = "Email"
-url = "riba2534@qq.com"
-weight = 3
+url = "mailto:riba2534@qq.com"
+weight = 4
 # [[menu.footer]]
 # name = "RSS"
 # url = "/index.xml"
