@@ -74,4 +74,4 @@ riba2534 是我在网络上的常用代号，本人于 2020 年毕业于计算�
 
 如果你感觉我的文章对你有帮助，可以请我喝一杯咖啡。
 
-<img src="https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210507155104.JPG"  width="40%" height="%40"  alt="收款"/>
+<img src="https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210507155104.JPG"  width="50%" height="%50"  alt="收款"/>

@@ -15,7 +15,7 @@ codeFences = true
 guessSyntax = false
 hl_Lines = ""
 lineNoStart = 1
-lineNos = false
+lineNos = true
 lineNumbersInTable = true
 noClasses = true
 style = "perldoc"
@@ -25,13 +25,18 @@ tabWidth = 4
 unsafe = true
 
 [params]
-disqusShortname = "riba2534" 
 enableMathJax = true 
 enableOpenGraph = true 
 enableReadingTime = true 
+enableValine = true 
 favicon = "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210427152737.jpeg" 
 subtitle = "没有谁生来就是神牛，而千里之行，始于足下！" 
 title = "My Blog" # will set 'og:site_name'
+
+[params.valine]
+appId = "KBFJP4UimJOh93NuNUoL3HoE-gzGzoHsz"
+appKey = "NTpemenu4swXoo5faWDRg9gs"
+avator = "monsterid"
 
 [taxonomies]
 category = "categories"

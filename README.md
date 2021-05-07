@@ -11,6 +11,7 @@
 ---
 
 主题链接：https://github.com/AmazingRise/hugo-theme-diary
+评论系统：https://github.com/DesertsP/Valine-Admin
 
 hugo模板开发教程：
 
