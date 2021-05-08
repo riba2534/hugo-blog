@@ -3,7 +3,7 @@ title: Kafka基础知识
 date: 2020-04-27T16:17:04+08:00
 lastmod: 2020-04-27T16:17:04+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201518.png"
 tags:
 - Kafka
 categories: 消息队列

@@ -3,7 +3,7 @@ title: LeetCode 4. Median of Two Sorted Arrays(思路，递归)
 date: 2019-03-02T16:43:22+08:00
 lastmod: 2019-03-02T16:43:22+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
 tags:
 - LeetCode
 categories: OnlineJudge刷题

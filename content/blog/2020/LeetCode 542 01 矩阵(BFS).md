@@ -3,7 +3,7 @@ title: LeetCode 542 01 矩阵(BFS)
 date: 2020-04-15T11:44:49+08:00
 lastmod: 2020-04-15T11:44:49+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
 tags:
 - LeetCode
 categories: OnlineJudge刷题

@@ -3,7 +3,7 @@ title: Linux内核数据结构
 date: 2020-08-28T01:49:53+08:00
 lastmod: 2020-08-28T01:49:53+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201518.png"
 tags:
 - linux内核设计与实现
 categories: Linux

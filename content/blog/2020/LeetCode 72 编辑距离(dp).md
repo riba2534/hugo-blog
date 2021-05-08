@@ -3,7 +3,7 @@ title: LeetCode 72 编辑距离(dp)
 date: 2020-04-06T11:50:20+08:00
 lastmod: 2020-04-06T11:50:20+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
 tags:
 - LeetCode
 categories: OnlineJudge刷题

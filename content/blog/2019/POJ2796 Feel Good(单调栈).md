@@ -3,7 +3,7 @@ title: POJ2796 Feel Good(单调栈)
 date: 2019-03-03T20:55:30+08:00
 lastmod: 2019-03-03T20:55:30+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201518.png"
 tags:
 - 单调栈
 categories: OnlineJudge刷题

@@ -3,7 +3,7 @@ title: LeetCode 22 括号生成(递归)
 date: 2020-04-09T11:55:17+08:00
 lastmod: 2020-04-09T11:55:17+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
 tags:
 - LeetCode
 categories: OnlineJudge刷题

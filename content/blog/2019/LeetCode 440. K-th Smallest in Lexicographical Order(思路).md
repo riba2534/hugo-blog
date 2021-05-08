@@ -3,7 +3,7 @@ title: LeetCode 440. K-th Smallest in Lexicographical Order(思路)
 date: 2019-03-01T09:03:00+08:00
 lastmod: 2019-03-01T09:33:28+08:00
 draft: false
-featured_image: https://i.loli.net/2019/03/01/5c7884ad9365f.png
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
 tags:
 - LeetCode
 categories: OnlineJudge刷题

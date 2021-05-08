@@ -3,7 +3,7 @@ title: LeetCode 214 最短回文串(kmp、next应用)
 date: 2020-08-29T02:41:03+08:00
 lastmod: 2020-08-29T02:41:03+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
 tags:
 - LeetCode
 - kmp

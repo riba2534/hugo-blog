@@ -3,7 +3,7 @@ title: LeetCode 410 分割数组的最大值(二分,dp)
 date: 2020-07-25T17:31:00+08:00
 lastmod: 2020-07-25T18:17:39+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
 tags:
 - LeetCode
 categories: OnlineJudge刷题

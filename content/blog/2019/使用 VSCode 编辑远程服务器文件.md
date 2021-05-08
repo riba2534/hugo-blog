@@ -3,7 +3,7 @@ title: 使用 VSCode 编辑远程服务器文件
 date: 2019-04-29T17:02:00+08:00
 lastmod: 2019-04-30T10:45:28+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201518.png"
 tags:
 - VSCode
 categories: 工具资源

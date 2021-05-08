@@ -3,7 +3,7 @@ title: LeetCode 546 移除盒子(区间dp，记忆化搜索)
 date: 2020-08-15T12:32:00+08:00
 lastmod: 2020-08-21T01:01:31+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
 tags:
 - LeetCode
 categories: OnlineJudge刷题

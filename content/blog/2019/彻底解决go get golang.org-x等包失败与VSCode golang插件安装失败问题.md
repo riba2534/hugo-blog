@@ -3,7 +3,7 @@ title: 彻底解决go get golang.org/x等包失败与VSCode golang插件安装�
 date: 2019-09-23T16:16:00+08:00
 lastmod: 2019-09-23T16:16:00+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201518.png"
 tags:
 - GOPROXY
 categories: GoLang

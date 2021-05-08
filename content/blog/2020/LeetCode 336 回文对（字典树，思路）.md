@@ -3,7 +3,7 @@ title: LeetCode 336 回文对（字典树，思路）
 date: 2020-08-06T09:28:51+08:00
 lastmod: 2020-08-06T09:28:51+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
 tags:
 - LeetCode
 - 字典树

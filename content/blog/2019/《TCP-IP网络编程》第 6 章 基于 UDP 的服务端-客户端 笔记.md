@@ -3,7 +3,7 @@ title: 《TCP/IP网络编程》第 6 章 基于 UDP 的服务端/客户端 笔�
 date: 2019-01-17T16:10:00+08:00
 lastmod: 2019-01-17T16:11:42+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201518.png"
 tags:
 - 《TCP/IP网络编程》
 categories: 《TCP/IP网络编程》学习笔记

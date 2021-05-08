@@ -3,7 +3,7 @@ title: LeecCode 221 最大正方形(dp)
 date: 2020-05-08T01:56:15+08:00
 lastmod: 2020-05-08T01:56:15+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
 tags:
 - dp
 - LeetCode

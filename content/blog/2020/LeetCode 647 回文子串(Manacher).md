@@ -3,7 +3,7 @@ title: LeetCode 647 回文子串(Manacher)
 date: 2020-08-19T02:35:42+08:00
 lastmod: 2020-08-19T02:35:42+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
 tags:
 - LeetCode
 - Manacher

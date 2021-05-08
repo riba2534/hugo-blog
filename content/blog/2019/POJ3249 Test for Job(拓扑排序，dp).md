@@ -3,7 +3,7 @@ title: POJ3249 Test for Job(拓扑排序，dp)
 date: 2019-03-03T20:57:03+08:00
 lastmod: 2019-03-03T20:57:03+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201518.png"
 tags:
 - 拓扑排序
 categories: OnlineJudge刷题

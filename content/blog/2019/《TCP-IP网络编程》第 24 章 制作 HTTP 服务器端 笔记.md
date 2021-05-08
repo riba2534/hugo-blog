@@ -3,7 +3,7 @@ title: 《TCP/IP网络编程》第 24 章 制作 HTTP 服务器端 笔记
 date: 2019-02-07T20:16:48+08:00
 lastmod: 2019-02-07T20:16:48+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201518.png"
 tags:
 - 《TCP/IP网络编程》
 categories: 《TCP/IP网络编程》学习笔记

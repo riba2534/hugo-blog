@@ -3,7 +3,7 @@ title: 关于Linux Shell需要知道的
 date: 2020-05-02T01:27:17+08:00
 lastmod: 2020-05-02T01:27:17+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201518.png"
 tags:
 - Linux
 categories: Linux

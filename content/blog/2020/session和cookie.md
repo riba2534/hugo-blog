@@ -3,7 +3,7 @@ title: session和cookie
 date: 2020-05-02T01:30:00+08:00
 lastmod: 2020-05-02T01:33:14+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201518.png"
 tags:
 - HTTP
 categories: HTTP

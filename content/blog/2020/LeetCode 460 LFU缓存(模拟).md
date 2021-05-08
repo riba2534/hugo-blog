@@ -3,7 +3,7 @@ title: LeetCode 460 LFU缓存(模拟)
 date: 2020-04-06T11:49:42+08:00
 lastmod: 2020-04-06T11:49:42+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
 tags:
 - LeetCode
 categories: OnlineJudge刷题

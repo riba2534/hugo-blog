@@ -3,7 +3,7 @@ title: MySQL基础学习笔记
 date: 2020-05-05T16:01:00+08:00
 lastmod: 2020-05-05T16:01:46+08:00
 draft: false
-featured_image: ""
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201518.png"
 tags:
 - MySQL
 categories: MySQL
