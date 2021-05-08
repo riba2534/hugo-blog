@@ -8,7 +8,8 @@ tags:
 - LeetCode
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[统计「优美子数组」](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/)

@@ -8,7 +8,8 @@ tags:
 - LeetCode
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目描述：[LFU缓存](https://leetcode-cn.com/problems/lfu-cache/)

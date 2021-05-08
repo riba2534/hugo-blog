@@ -9,7 +9,8 @@ tags:
 - 拓扑排序
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[课程表](https://leetcode-cn.com/problems/course-schedule/)

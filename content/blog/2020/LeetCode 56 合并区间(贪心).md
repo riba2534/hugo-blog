@@ -8,7 +8,8 @@ tags:
 - LeetCode
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[合并区间](https://leetcode-cn.com/problems/merge-intervals/)

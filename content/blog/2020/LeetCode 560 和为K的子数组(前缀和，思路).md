@@ -9,7 +9,8 @@ tags:
 - 前缀和
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)

@@ -9,7 +9,8 @@ tags:
 - 递归
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[24 点游戏](https://leetcode-cn.com/problems/24-game/)

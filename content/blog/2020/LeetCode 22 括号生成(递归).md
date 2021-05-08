@@ -8,7 +8,8 @@ tags:
 - LeetCode
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[括号生成](https://leetcode-cn.com/problems/generate-parentheses/)

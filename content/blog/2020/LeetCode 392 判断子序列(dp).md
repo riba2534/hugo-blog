@@ -8,7 +8,8 @@ tags:
 - LeetCode
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[判断子序列](https://leetcode-cn.com/problems/is-subsequence/)

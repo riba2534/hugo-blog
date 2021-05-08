@@ -9,7 +9,8 @@ tags:
 - dfs
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[解数独](https://leetcode-cn.com/problems/sudoku-solver/)

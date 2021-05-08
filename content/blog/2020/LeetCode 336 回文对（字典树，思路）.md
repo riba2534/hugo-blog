@@ -9,7 +9,8 @@ tags:
 - 字典树
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[回文对](https://leetcode-cn.com/problems/palindrome-pairs/)

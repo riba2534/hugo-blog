@@ -8,7 +8,8 @@ tags:
 - LeetCode
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/)

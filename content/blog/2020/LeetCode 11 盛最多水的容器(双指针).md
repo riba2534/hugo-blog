@@ -8,7 +8,8 @@ tags:
 - LeetCode
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)

@@ -9,7 +9,8 @@ tags:
 - 枚举子集
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/)

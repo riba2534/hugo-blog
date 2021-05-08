@@ -9,7 +9,8 @@ tags:
 - LeetCode
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[最低票价](https://leetcode-cn.com/problems/minimum-cost-for-tickets/)

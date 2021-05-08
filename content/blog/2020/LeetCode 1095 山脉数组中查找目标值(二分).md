@@ -8,7 +8,8 @@ tags:
 - LeetCode
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[山脉数组中查找目标值](https://leetcode-cn.com/problems/find-in-mountain-array/)

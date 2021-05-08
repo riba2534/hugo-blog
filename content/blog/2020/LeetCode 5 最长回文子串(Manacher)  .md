@@ -9,6 +9,8 @@ tags:
 - Manacher
 categories: OnlineJudge刷题
 comment: true
+series:
+- LeetCode题解
 
 ---
 

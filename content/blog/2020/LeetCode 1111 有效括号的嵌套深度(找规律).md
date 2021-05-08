@@ -8,7 +8,8 @@ tags:
 - LeetCode
 categories: 数据结构和算法
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[有效括号的嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)

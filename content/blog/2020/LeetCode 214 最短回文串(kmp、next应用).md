@@ -9,7 +9,8 @@ tags:
 - kmp
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[最短回文串](https://leetcode-cn.com/problems/shortest-palindrome/)

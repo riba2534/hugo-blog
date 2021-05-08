@@ -9,7 +9,8 @@ tags:
 - Manacher
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)

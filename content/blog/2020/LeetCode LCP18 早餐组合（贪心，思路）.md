@@ -10,7 +10,8 @@ tags:
 - 思路
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[早餐组合](https://leetcode-cn.com/problems/2vYnGI/)

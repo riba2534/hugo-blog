@@ -8,7 +8,8 @@ tags:
 - LeetCode
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)

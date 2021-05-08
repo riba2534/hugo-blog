@@ -8,7 +8,8 @@ tags:
 - LeetCode
 categories: OnlineJudge刷题
 comment: true
-
+series:
+- LeetCode题解
 ---
 
 题目链接：[另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/)
