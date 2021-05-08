@@ -1,5 +1,5 @@
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
-baseURL = "https://blog2.riba2534.cn/" 
+baseURL = "https://blog.riba2534.cn/" 
 dateFormat = "2006-01-02 15:04:05" 
 description = "My HomePage Description" # will set 'og:description'
 enableEmoji = true 
