@@ -3,7 +3,7 @@ title: LeetCode 面试题51 数组中的逆序对(线段树+树状数组+离散�
 date: 2020-04-24T02:40:25+08:00
 lastmod: 2020-04-24T02:40:25+08:00
 draft: false
-featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508221015.png"
 tags:
 - LeetCode
 categories: OnlineJudge刷题

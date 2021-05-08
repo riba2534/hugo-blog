@@ -3,7 +3,7 @@ title: LeetCode 1095 山脉数组中查找目标值(二分)
 date: 2020-04-29T01:42:19+08:00
 lastmod: 2020-04-29T01:42:19+08:00
 draft: false
-featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508221015.png"
 tags:
 - LeetCode
 categories: OnlineJudge刷题

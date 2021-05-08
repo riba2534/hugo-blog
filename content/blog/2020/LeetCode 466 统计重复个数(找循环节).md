@@ -3,7 +3,7 @@ title: LeetCode 466 统计重复个数(找循环节)
 date: 2020-04-19T14:30:15+08:00
 lastmod: 2020-04-19T14:30:15+08:00
 draft: false
-featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508221015.png"
 tags:
 - LeetCode
 categories: OnlineJudge刷题

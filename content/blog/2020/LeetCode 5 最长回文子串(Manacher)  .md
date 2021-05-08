@@ -3,7 +3,7 @@ title: 'LeetCode 5 最长回文子串(Manacher)  '
 date: 2020-08-19T02:34:55+08:00
 lastmod: 2020-08-19T02:34:55+08:00
 draft: false
-featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508221015.png"
 tags:
 - LeetCode
 - Manacher

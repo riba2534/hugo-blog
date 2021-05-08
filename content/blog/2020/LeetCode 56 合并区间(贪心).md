@@ -3,7 +3,7 @@ title: LeetCode 56 合并区间(贪心)
 date: 2020-04-16T14:31:58+08:00
 lastmod: 2020-04-16T14:31:58+08:00
 draft: false
-featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508221015.png"
 tags:
 - LeetCode
 categories: OnlineJudge刷题

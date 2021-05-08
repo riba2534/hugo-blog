@@ -3,7 +3,7 @@ title: LeetCode 1111 有效括号的嵌套深度(找规律)
 date: 2020-04-01T14:29:14+08:00
 lastmod: 2020-04-01T14:29:14+08:00
 draft: false
-featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508221015.png"
 tags:
 - LeetCode
 categories: 数据结构和算法

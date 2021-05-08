@@ -3,7 +3,7 @@ title: LeetCode 98 验证二叉搜索树（递归，中序遍历）
 date: 2020-05-05T01:03:00+08:00
 lastmod: 2020-05-05T01:03:56+08:00
 draft: false
-featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201223.png"
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508221015.png"
 tags:
 - LeetCode
 categories: OnlineJudge刷题
