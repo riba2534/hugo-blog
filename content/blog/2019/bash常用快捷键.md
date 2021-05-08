@@ -2,6 +2,7 @@
 title: "Bash常用快捷键"
 date: 2019-07-16T11:55:25+08:00
 draft: false
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210508201518.png"
 tags: 
 - 技巧
 categories:
