@@ -19,10 +19,11 @@
                     <div class="post-item post-item-no-gaps">
                         <div class="post-item-info-wrapper">
                             <div class="post-item-title post-item-title-small year">
-                                {{ .Key }}
+                                {{ .Key }}<sup>{{ len (where .Pages "Type" "blog") }}</sup>
                             </div>
+                            
                         </div>
-                        {{ len (where .Pages "Type" "blog") }} 篇
+                        
                     </div>
                 </div>
             </a>
