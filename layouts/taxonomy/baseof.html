@@ -2,6 +2,7 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
+        <!-- 此页面的作用是 分类这种页面不需要翻页，所以分类页面这里做一个 trick，直接去找 extrabar2 和 mobile-footer2-->
     	<div id="app">
             {{- partial "sidebar.html" . -}}
             {{- partial "extrabar2.html" . -}}
@@ -13,7 +14,7 @@
                     {{- block "main" . }}{{- end }}
             </div>
         
-            {{- partial "mobile-footer.html" . -}}
+            {{- partial "mobile-footer2.html" . -}}
             <!-- mobile footer -->
             </div>
     {{ partial "journal.html" .}}
