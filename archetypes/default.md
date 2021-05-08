@@ -4,8 +4,10 @@ date: {{ .Date }}
 draft: false
 featured_image: ""
 description: ""
-tags: [""]
-categories: [""]
+tags:
+- xxx
+categories:
+- xxx
 comment : true
 ---
 
