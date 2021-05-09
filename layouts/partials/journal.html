@@ -92,16 +92,12 @@ app = new Vue({
         this.mounted = true;
 
         {{ if and (.Site.Params.enableValine) (.IsPage) }}
-            new Valine({
-                el: '#vcomments',
-                appId: {{.Site.Params.valine.appId}},
-                appKey: {{.Site.Params.valine.appKey}},
-                requiredFields: ['mail'],
-                // 这里有昵称必须超过三个字的bug，所以昵称不是必填字段
-                enableQQ: true,
-                recordIP: true,
+            new Waline({
+                el: '#waline',
+                path: location.pathname,
+                serverURL: 'https://blog-api-delta.vercel.app/',
                 avatar: {{.Site.Params.valine.avator}},
-            })
+            });
         {{ end }}
         {{ if and (.Site.Params.enableTwikoo) (.IsPage) }}
             twikoo.init({ envId: {{.Site.Params.twikooEnvId}}, el: '#tcomment' });
