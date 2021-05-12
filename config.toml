@@ -27,15 +27,11 @@ unsafe = true
 enableMathJax = true 
 enableOpenGraph = true 
 enableReadingTime = true 
-enableValine = true 
+enableTwikoo = true 
 favicon = "https://image-1252109614.cos.ap-beijing.myqcloud.com/img/20210427152737.jpeg" 
 subtitle = "没有谁生来就是神牛，而千里之行，始于足下！" 
 title = "My Blog" # will set 'og:site_name'
-
-[params.valine]
-appId = "KBFJP4UimJOh93NuNUoL3HoE-gzGzoHsz"
-appKey = "NTpemenu4swXoo5faWDRg9gs"
-avator = "monsterid"
+twikooEnvId = "blog-9g6ht92ca9c564c6" 
 
 [taxonomies]
 category = "categories"
@@ -77,12 +73,10 @@ name = "友链"
 url = "/friends"
 weight = 7
 
-
 [[menu.main]]
 name = "RSS"
 url = "/index.xml"
 weight = 8
-
 
 [[menu.footer]]
 name = "CSDN"
