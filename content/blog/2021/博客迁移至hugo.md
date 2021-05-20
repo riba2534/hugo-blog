@@ -1,6 +1,7 @@
 ---
 title: "博客迁移至hugo"
 date: 2021-05-08T18:07:05+08:00
+lastmod: 2021-05-21T00:43:06+08:00
 draft: false
 featured_image: "https://image.riba2534.cn/18-12-13/19258050.jpg"
 description: "我的博客又迁移了..."
@@ -61,7 +62,9 @@ comment : true
 
 配置的时候踩了很多坑，我又不会前端，只能拿起来现场魔改，比如自带的归档页面太大了，我改成了列表形式，还有各种微调（~~大调我也不会啊~~）
 
-评论系统选了 [Valine](https://valine.js.org/) ，简单好配置。
+~~评论系统选了 [Valine](https://valine.js.org/) ，简单好配置。~~
+
+评论系统目前换成了 [twikoo](https://twikoo.js.org/) 由于我的博客托管在腾讯云 CloudBase 上，twikoo 恰好使用了 CloudBase 的能力，而且按量付费价格也很便宜，就使用这个了。
 
 最恶心的部分是数据迁移，老的 Typecho 在 MySQL 中，我肯定不能傻傻的手动复制粘贴，于是我花了小一天写了个迁移脚本，基本就是去读DB中的数据，然后序列化成 Hugo 博客需要的形式，再按年份保存。。
 
@@ -77,6 +80,7 @@ comment : true
 - https://valine.js.org/
 - https://www.leancloud.cn/ (ServerLess云服务)
 - https://blog.wangjunfeng.com/post/hugo-cloudbase/
+- https://twikoo.js.org/
 
 hugo模板开发教程：
 
