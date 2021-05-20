@@ -1,9 +1,10 @@
+<!-- 此页面的作用是 分类这种页面不需要翻页，所以分类页面这里做一个 trick，直接去找 extrabar2 和 mobile-footer2-->
 <div ref="extraContainer" class="extra-container">
     {{ if and (isset .Site.Params "googlesearchcode") (.IsHome) }}
     <script async src="https://cse.google.com/cse.js?cx={{.Site.Params.googleSearchCode}}"></script>
     <div class="gcse-searchbox-only" mobileLayout="true"></div>
     {{ end }}
-    {{ if and (not (.Site.Params.disableToC) ) (.IsPage) }}
+    {{ if and (not (.Params.disableToC) ) (.IsPage) }}
     <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
         {{- partial "toc.html" . -}}
     </div>
