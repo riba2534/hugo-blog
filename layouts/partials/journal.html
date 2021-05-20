@@ -212,7 +212,7 @@ app = new Vue({
                 debounced.pending = pending
                 return debounced
                 }
-            
+
     },
     created() {
         window.addEventListener('scroll', this.handleScroll);
@@ -264,13 +264,13 @@ app = new Vue({
             });
         {{ end }}
         {{ if and (.Site.Params.enableTwikoo) (.IsPage) }}
-        twikoo.init({
+            twikoo.init({
                 envId: {{.Site.Params.twikooEnvId}},
                 el: '#tcomment',
                 region: {{.Site.Params.twikooRegion}},
             });
         {{ end }}
-        
+
         document.querySelectorAll("table").forEach(function(elem){
             elem.classList.add("table-striped");
             elem.classList.add("table");

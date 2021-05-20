@@ -65,10 +65,10 @@
 {{ end }}
 
 {{ if and (not (.Params.disableToC) ) (.IsPage) }}
-{{ if not .Site.Params.enableAutoCollapse }}
+  {{ if not .Site.Params.enableAutoCollapse }}
     <script src="{{"/js/toc.js" | relURL}}"></script>
   {{ else }}
-  <script src="{{"/vendor/js/jquery.min.js" | relURL}}" ></script>
+    <script src="{{"/vendor/js/jquery.min.js" | relURL}}" ></script>
     <script src="{{"/js/toc-collapse.js" | relURL}}"></script>
     <script src="{{"/vendor/js/bootstrap.min.js" | relURL}}" ></script>
   {{ end }}
