@@ -6,7 +6,7 @@ enableEmoji = true
 enableGitInfo = false 
 languageCode = "zh-cn" 
 theme = "diary" 
-title = "riba2534's Blog" 
+title = "🌀riba2534's Blog" 
 
 [markup]
 [markup.highlight]
@@ -38,42 +38,42 @@ series = "series"
 tag = "tags"
 
 [[menu.main]]
-name = "文章"
+name = "文章📖"
 url = "/blog"
 weight = 1
 
 [[menu.main]]
-name = "分类"
+name = "分类📌"
 url = "/categories"
 weight = 2
 
 [[menu.main]]
-name = "标签"
+name = "标签🏷️"
 url = "/tags"
 weight = 3
 
 [[menu.main]]
-name = "系列"
+name = "系列📚"
 url = "/series"
 weight = 4
 
 [[menu.main]]
-name = "归档"
+name = "归档📃"
 url = "/archive"
 weight = 5
 
 [[menu.main]]
-name = "关于"
+name = "关于👋"
 url = "/about"
 weight = 6
 
 [[menu.main]]
-name = "友链"
+name = "友链🔗"
 url = "/friends"
 weight = 7
 
 [[menu.main]]
-name = "RSS"
+name = "RSS📢"
 url = "/index.xml"
 weight = 8
 
