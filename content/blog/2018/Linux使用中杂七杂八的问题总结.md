@@ -630,3 +630,13 @@ grant all privileges on testdb.* to test@localhost identified  by '1234';
 GRANT ALL ON *.* TO 'test'@'%'; # 给用户所有表的权限
 ```
 
+## Ubuntu 安装 7Z
+
+https://blog.csdn.net/LEON1741/article/details/54317715
+
+```shell
+apt install p7zip-full # 安装
+```
+
+
+
