@@ -37,3 +37,8 @@ git submodule update
 # 启动服务器
 hugo server
 ```
+
+
+---
+
+由于腾讯云云函数变了收费模式，我暂时把博客移到服务器上来
