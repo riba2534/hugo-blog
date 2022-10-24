@@ -3,7 +3,7 @@ title: "Golang基础知识杂烩"
 date: 2022-10-24T01:34:19+08:00
 draft: false
 featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/2022/10/24/63557e98aeda0.png"
-description: "For部门校招新人训练营的一次Golang技术分享"
+description: "For 给部门校招新人训练营准备的一次 Golang 技术分享"
 tags:
 - golang
 categories:
