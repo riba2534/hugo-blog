@@ -421,7 +421,7 @@ hmap 最后一个字段是 mapextra，其中：
 
 - 首先计算出待查找key的哈希，使用低5位 00100，对应4号 bucket
 
-- 之后使用高8位10010110，对应十进制150，在6号 bucket中寻找tophash值（HOB hash）为150的 key，找到了2号槽位，那么对应的key和value也是在2号槽位，这样整个查找过程就结束了
+- 之后使用高8位10010110，对应十进制150，在4号 bucket中寻找tophash值（HOB hash）为150的 key，找到了2号槽位，那么对应的key和value也是在2号槽位，这样整个查找过程就结束了
 
 如果在 bucket 中没找到，并且overflow不为空，则继续去overflow bucket中寻找，直到找到key或所有的key槽位都找遍了，包括所有的overflow bucket。
 
