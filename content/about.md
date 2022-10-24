@@ -20,17 +20,17 @@ enableVue : true
 
 riba2534 是我在网络上的常用代号，本人于 2020 年毕业于计算机科学与技术专业，我一直使用一个兔斯基的头像(~~如果要问为什么是，因为我太懒，懒得换~~)。
 
-兴趣使然（~~我会告诉你我是小时候玩网络游戏下载一堆外挂然后电脑中毒后开始对技术感兴趣的？~~），热爱计算机相关技术，爱折腾爱瞎搞，退役 Acmer。
+兴趣使然（~~我会告诉你我是小时候玩网络游戏下载一堆外挂然后电脑中毒后开始对技术感兴趣的？~~），比较热爱计算机相关技术，喜欢折腾爱瞎搞，前算法竞赛选手，退役 Acmer。
 
-目前在字节跳动（ByteDance）担任抖音电商的服务端研发工程师(之前在头条)，常用语言为：Golang、Python、C/C++。
+目前在字节跳动（ByteDance）担任抖音电商的服务端研发工程师(之前在今日头条)，喜欢折腾 Go，Linux，分布式等技术。常用语言为：Golang、Python、C/C++。
 
-最近对区块链、Web3相关话题比较感兴趣，有相同兴趣的同学可以一起交流。
+最近对区块链、Web3相关话题比较感兴趣，Solidity、Rust 学习中，有相同兴趣的同学可以一起交流。
 
 
 
 ## 其他主页
 
-- 个人网站：[https://www.riba2534.cn/](https://www.riba2534.cn/) （大一闲的无聊用wordpress搭的网站，以后再也不会更新了，但是我觉得挺好看的，就不下线了）
+- 个人网站：[https://www.riba2534.cn/](https://www.riba2534.cn/) （~~大一闲的无聊用wordpress搭的网站，以后再也不会更新了，但是我觉得挺好看的，就不下线了~~，彻底无了）
 - GitHub：[https://github.com/riba2534](https://github.com/riba2534)
 - CSDN：[https://blog.csdn.net/riba2534](https://blog.csdn.net/riba2534) （大学时期最常用，写了一堆题解）
 - 知乎：[https://www.zhihu.com/people/riba2534](https://www.zhihu.com/people/riba2534) （网上闲聊吹水。。）
