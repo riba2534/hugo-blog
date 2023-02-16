@@ -3,7 +3,7 @@ title: "博客迁移至hugo"
 date: 2021-05-08T18:07:05+08:00
 lastmod: 2021-05-21T00:43:06+08:00
 draft: false
-featured_image: "https://image.riba2534.cn/18-12-13/19258050.jpg"
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d4242c3f.jpg"
 description: "我的博客又迁移了..."
 tags:
 - 博客迁移

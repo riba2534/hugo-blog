@@ -3,7 +3,7 @@ title: Ubuntu+Apache2配置腾讯云ssl证书实现https
 date: 2018-12-28T19:22:00+08:00
 lastmod: 2018-12-28T19:37:46+08:00
 draft: false
-featured_image: https://image.riba2534.cn/18-12-22/35474812.jpg
+featured_image: https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d40e7fd4.jpg
 tags:
 - Linux
 - LAMP

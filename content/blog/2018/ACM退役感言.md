@@ -3,7 +3,7 @@ title: ACM退役感言
 date: 2018-12-13T22:49:00+08:00
 lastmod: 2018-12-13T22:55:29+08:00
 draft: false
-featured_image: https://image.riba2534.cn/18-12-13/33465168.jpg
+featured_image: https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d5a94a76.jpg
 tags: []
 categories: 心情随想
 comment: true

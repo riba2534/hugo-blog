@@ -3,7 +3,7 @@ title: C/C++ 面试知识总结
 date: 2018-12-25T12:09:00+08:00
 lastmod: 2018-12-25T22:44:52+08:00
 draft: false
-featured_image: https://image.riba2534.cn/18-12-25/6144232.jpg
+featured_image: https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d57c978c.jpg
 tags:
 - C++
 categories: C++

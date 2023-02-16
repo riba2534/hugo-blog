@@ -3,7 +3,7 @@ title: 《TCP/IP网络编程》第 2 章 套接字类型与协议设置 笔记
 date: 2019-01-13T11:15:00+08:00
 lastmod: 2019-01-18T11:28:30+08:00
 draft: false
-featured_image: https://image.riba2534.cn/18-12-13/71157102.jpg
+featured_image: https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d3fddccf.jpg
 tags:
 - 《TCP/IP网络编程》
 categories: 《TCP/IP网络编程》学习笔记

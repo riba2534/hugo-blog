@@ -3,7 +3,7 @@ title: HDU自动AC机，八小时爬上杭电首页
 date: 2017-07-24T22:49:00+08:00
 lastmod: 2017-07-24T22:55:29+08:00
 draft: false
-featured_image: https://image.riba2534.cn/17-7-24/24063687.jpg
+featured_image: https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d195b098.jpg
 tags:
 - 爬虫
 categories: 爬虫
@@ -23,9 +23,9 @@ comment: true
 
 废话不多说，先放一张战果：
 
-![](https://image.riba2534.cn/17-7-24/24063687.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d195b098.jpg)
 
-![](https://image.riba2534.cn/17-7-24/471876.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d1ab27f1.jpg)
 
 第十四名，AC率达到了百分之92，怕不怕~
 
@@ -47,7 +47,7 @@ http://www.acmsearch.com/
 
 就是这个网站，上面给出了，大部分题的题解，简直是开盖即食，按捺不住这种激动的心情，那么首先，就是获取链接了：
 
-![](https://image.riba2534.cn/17-7-24/39837025.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d1b46926.jpg)
 
 我们点击hdoj，输入题目的ID，发现底下一排排已经AC的代码，这时，看一看网页的地址栏：
 
@@ -61,7 +61,7 @@ http://www.acmsearch.com/article?ArticleListSearch[Foj]=hdoj&ArticleListSearch[F
 
 这时我们利用F12大法查看一下网页代码：
 
-![](https://image.riba2534.cn/17-7-24/1496269.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d1be4c1e.jpg)
 
 发现题解的链接都是在一个 **tbody->tr->data-key** 的标签里面，然后我们再构造链接：
 
@@ -69,19 +69,19 @@ http://www.acmsearch.com/article/show/+编号
 
 这样就获得到了代码的页面,以HDU2111这个题来说明，我们获取了链接以后，一个GET请求发过去，会进入一个这样的页面：
 
-![](https://image.riba2534.cn/17-7-24/97249994.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d1c85fea.jpg)
 
 没错，我们看到了AC代码，这时候我们要做的是把代码从网页中提取出来,那么我们继续查看网页源代码：
 
-![](https://image.riba2534.cn/17-7-24/12044441.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d1d17b27.jpg)
 
 发现了啥，没错，代码就在一个标签名叫做 **textarea** 的标签下,我们只需要提取这个标签 里面的内容.
 
 放一部分关键代码：
 
-![](https://image.riba2534.cn/17-7-24/15110196.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d1da04b6.jpg)
 
-![](https://image.riba2534.cn/17-7-24/21069630.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d1e257c7.jpg)
 
 这时候，我们的代码就获取完毕了，这时候，重要的一步来了，我们要登录杭电并且提交代码
 
@@ -89,15 +89,15 @@ http://www.acmsearch.com/article/show/+编号
 
 我们先打开杭电首页:
 
-![](https://image.riba2534.cn/17-7-24/35891141.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d1ec1ee4.jpg)
 
 我们把账号密码输进去，按F12监听数据抓包：
 
-![](https://image.riba2534.cn/17-7-24/24460671.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d1f708f9.jpg)
 
 我们发现一个POST地址，这就是我们待会要登录的地址，然后看看其他发送过去的内容
 
-![](https://image.riba2534.cn/17-7-24/37029016.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d20383d4.jpg)
 
 我们要发送的请求要包含：
 
@@ -115,7 +115,7 @@ http://docs.python-requests.org/zh_CN/latest/user/quickstart.html
 
 这一步关键代码如下：
 
-![](https://image.riba2534.cn/17-7-24/9092482.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d20ccea7.jpg)
 
 当登录成功以后，我们要做的就是提交代码了
 
@@ -123,15 +123,15 @@ http://docs.python-requests.org/zh_CN/latest/user/quickstart.html
 
 我们找一道题目，比如2111，来进行提交，首先，先抓包：
 
-![](https://image.riba2534.cn/17-7-24/73612987.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d2168f63.jpg)
 
 然后进行抓包：
 
-![](https://image.riba2534.cn/17-7-24/11071291.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d21d994c.jpg)
 
 我们得到了post地址，
 
-![](https://image.riba2534.cn/17-7-24/39704008.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d22589b5.jpg)
 
 提交的时候要带上cookie，以及构造的DATA数据。
 
@@ -162,11 +162,11 @@ data = {
 
 提交的关键代码如图：
 
-![](https://image.riba2534.cn/17-7-24/72200410.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d22e1a3e.jpg)
 
 最后，当然是把爬虫上传服务器，爬上八小时，然后就进首页了~
 
-![](https://image.riba2534.cn/17-7-24/38539188.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d237a4fe.jpg)
 
  ## 后记
 

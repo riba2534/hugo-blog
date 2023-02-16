@@ -3,7 +3,7 @@ title: Good Bye 2018 C. New Year and the Sphere Transmission(数学)
 date: 2018-12-31T16:41:02+08:00
 lastmod: 2018-12-31T16:41:02+08:00
 draft: false
-featured_image: https://image.riba2534.cn/18-12-31/86597381.jpg
+featured_image: https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d56e59a4.jpg
 tags:
 - CodeForces
 - 数论

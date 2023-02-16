@@ -3,7 +3,7 @@ title: frp中文文档
 date: 2018-12-13T21:28:00+08:00
 lastmod: 2018-12-13T21:31:18+08:00
 draft: false
-featured_image: https://image.riba2534.cn/18-12-13/59561507.jpg
+featured_image: https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d55d1d62.jpg
 tags:
 - frp
 - 内网穿透

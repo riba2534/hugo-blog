@@ -3,7 +3,7 @@ title: Makefile的简单教程
 date: 2018-12-22T17:02:00+08:00
 lastmod: 2018-12-25T12:12:54+08:00
 draft: false
-featured_image: https://image.riba2534.cn/18-12-22/35474812.jpg
+featured_image: https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d40e7fd4.jpg
 tags:
 - C++
 - Makefile

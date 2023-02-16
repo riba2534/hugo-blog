@@ -3,7 +3,7 @@ title: Linux 网络通信瑞士军刀 nc 命令使用
 date: 2019-09-27T18:36:41+08:00
 lastmod: 2019-09-27T18:36:41+08:00
 draft: false
-featured_image: "https://image.riba2534.cn/18-12-22/35474812.jpg"
+featured_image: "https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d40e7fd4.jpg"
 tags:
 - Linux
 - TCP/IP

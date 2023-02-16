@@ -3,7 +3,7 @@ title: 爬取nyist-6000张证件照进行微软小冰颜值分析
 date: 2017-09-08T22:49:00+08:00
 lastmod: 2017-09-08T22:55:29+08:00
 draft: false
-featured_image: https://image.riba2534.cn/18-12-13/48847185.jpg
+featured_image: https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d24475d5.jpg
 tags:
 - 数据分析
 categories: 数据分析
@@ -39,7 +39,7 @@ comment: true
 ## 一、爬取并保存图片
 
 首先，我们打开要采集照片的地址：http://ngsying.com/list.asp?classid=22,会看到这样：
-![](https://image.riba2534.cn/17-9-8/46218738.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d251f359.jpg)
 
 然后引入相关的库：
 
@@ -60,11 +60,11 @@ import os
 随便打开一个页面，会发现图片是这样的：
 
 
-![](https://image.riba2534.cn/17-9-8/7915797.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d260f2f2.jpg)
 
 我们解析一下网页源代码会发现是这样的：
 
-![](https://image.riba2534.cn/17-9-8/82663365.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d26c82a6.jpg)
 
 这些图片都无一例外的藏在`img`标签里面的，所以我们只需要把这些里面的内容提取出来就可以得到每一张图片的地址了。
 提取的方法有很多种，比如用`BeautifulSoup`,但是这里由于这个标签并不需要解析成文档树，可以直接写一个正则表达式提取出来，所以我们可以这么写：
@@ -75,15 +75,15 @@ import os
 
 只需要简单的匹配一下多位数字就可以了，这样我们可以写出具体代码:
 
-![](https://image.riba2534.cn/17-9-8/56203132.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d2751f54.jpg)
 
 这样因为正则匹配的缘故，会返回一个包含所有图片地址的列表，那么现在我们要做的就是利用这个列表，进行保存：
 这个也很简单，我们遍历一下这个列表，然后构造每一个图片链接，这里也需要用正则表达式来匹配一下文件名，用`requests`请求一下把二进制的东西保存成`.jpg`文件就好了
 
-![](https://image.riba2534.cn/17-9-8/59932082.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d27cd998.jpg)
 
 现在我们的代码已经实现了对每个页面的图片进行保存，剩下的就是调用这两个函数了，我们只需要遍历一下要爬的网页的id，然后等着爬取完成就好了,爬虫爬完后会得到一个文件夹，里面就是你爬好的照片，就像这样：
-![](https://image.riba2534.cn/17-9-8/26375397.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d288d216.jpg)
 
 到了现在，第一步就做完了，已经拥有这几千张证件照了
 
@@ -95,10 +95,10 @@ https://kan.msxiaobing.com/ImageGame/Portal?task=yanzhi&feid=541a6dd6cd178819892
 
 显示这样：
 
-![](https://image.riba2534.cn/17-9-8/95415932.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d29500a9.jpg)
 
 这时我们点”上传图片”，然后进行抓包
-![](https://image.riba2534.cn/17-9-8/25965308.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d2a03316.jpg)
 
 我们发现有两个`post`请求，分别是把当前图片传到微软服务器，还有一个是进行颜值测试，进行颜值测试的时候其中的一个参数要传入当前这个图片在微软服务器的地址，所以我们要分两步来做：
 
@@ -212,11 +212,11 @@ def get_score(img_url):
 
 这样的话，我们就可以获得小冰对这个照片的评价，那么对于后期处理，我们只要用正则表达式把其中的关于颜值分数的地方提取出来就好了，那么这时候就需要保存刚刚获得的评价分数，所以我们采用的方式就是对文件重命名，就是把文件名改成:`分数+原来的文件名`的形式,代码如下：
 
-![](https://image.riba2534.cn/17-9-8/7576232.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d2a882ad.jpg)
 
 为了方便我们对于程序的调试，所以用一个txt文件随时把程序的log信息传进去，就像这样：
 
-![](https://image.riba2534.cn/17-9-8/27780915.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d2b21d70.jpg)
 
 至此，打分环节也完成了，下面进行下一项
 
@@ -296,8 +296,8 @@ def draw_circle():
 
 最后的结果如下图所示：
 
-![](https://image.riba2534.cn/17-9-8/88367687.jpg)
-![](https://image.riba2534.cn/17-9-8/62707995.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d2bc4c46.jpg)
+![](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/02/17/63ee7d2c5edd8.jpg)
 
 ## 总结
 
