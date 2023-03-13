@@ -11,9 +11,9 @@ categories:
 - AI
 comment : true
 ---
-
 # 腾讯云函数1分钟搭建 OpenAI 国内代理
 
+> 项目地址: https://github.com/riba2534/openai-scf-goproxy
 
 最近有一个好消息，OpenAI 开放了自己的 API，开发者可以很方便的调用各种语言模型来完成自己的创意，但是由于众所周知的原因国内访问 OpenAI 时接口可能大概率超时或者调不通，那解决无非是通过 proxy 的方式：
 
@@ -56,6 +56,13 @@ comment : true
 
 注意: 这里的访问路径后面有个 `/release/` 你在用的时候把这个去掉，即: `https://service-xxxxxx.hk.apigw.tencentcs.com`
 
+
+
+**重要提示**：云函数默认访问的超时时间较短，而调用 openai 的时间可能很长，所以我们需要改一下云函数配置，把超时时间调大，在左边「函数管理」-> 「函数配置」 里面，把访问的超时时间和并发度调大，如下图：
+
+[![超时时间.png](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/03/13/640ece0cc7848.png)](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/03/13/640ece0cc7848.png)
+
+[![并发配置.png](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/03/13/640ece0c4dd58.png)](https://image-1252109614.cos.ap-beijing.myqcloud.com/2023/03/13/640ece0c4dd58.png)
 
 ### 大功告成
 
